@@ -51,9 +51,9 @@ namespace Coordinator.Migrations
                 columns: new[] { "Id", "Name" },
                 values: new object[,]
                 {
-                    { new Guid("b789e847-9f0c-4af8-adf6-ebac897f66f6"), "Order.API" },
-                    { new Guid("fd566c11-8a40-4aa1-9665-39f1f2496112"), "Stock.API" },
-                    { new Guid("fe3dc46d-cab6-4987-9b02-7f28083b548d"), "Payment.API" }
+                    { new Guid("05f6f5fd-5ecd-4001-8a51-c41678e4932b"), "Stock.API" },
+                    { new Guid("7242d4a1-8df3-4ae1-9aa9-bdde87b84e66"), "Order.API" },
+                    { new Guid("e06b94f9-832d-46c6-b9df-1a7a728eb74f"), "Payment.API" }
                 });
 
             migrationBuilder.CreateIndex(

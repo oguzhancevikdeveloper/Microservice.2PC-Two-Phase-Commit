@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Coordinator.Migrations
 {
     [DbContext(typeof(TwoPhaseCommitContext))]
-    [Migration("20240727200555_init")]
+    [Migration("20240727202243_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -42,17 +42,17 @@ namespace Coordinator.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("b789e847-9f0c-4af8-adf6-ebac897f66f6"),
+                            Id = new Guid("7242d4a1-8df3-4ae1-9aa9-bdde87b84e66"),
                             Name = "Order.API"
                         },
                         new
                         {
-                            Id = new Guid("fd566c11-8a40-4aa1-9665-39f1f2496112"),
+                            Id = new Guid("05f6f5fd-5ecd-4001-8a51-c41678e4932b"),
                             Name = "Stock.API"
                         },
                         new
                         {
-                            Id = new Guid("fe3dc46d-cab6-4987-9b02-7f28083b548d"),
+                            Id = new Guid("e06b94f9-832d-46c6-b9df-1a7a728eb74f"),
                             Name = "Payment.API"
                         });
                 });
